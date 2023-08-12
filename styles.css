@@ -1,0 +1,499 @@
+*, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+@media only screen  and (min-width:930px){
+    .side-menu-bar{
+        display: none;
+    }
+    .hamburger{
+        display: none;
+    }
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 2, 20);
+    border-bottom: 1px solid #fff;
+}
+nav{
+    padding: 0 2em;
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.menu{
+    font-size: 18px;
+    display: flex;
+    gap: 2em;
+
+}
+.menu-items{
+    text-decoration: none;
+    color:#fff;
+}
+
+main{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(2, 1, 12);
+}
+.mainContent{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.hero{
+    width: 100%;
+    height: 80vh;
+    color: #fff;
+    display: flex;
+    flex-direction: ;
+    justify-content: left;
+    align-items: center;
+
+}
+.heroLeft{
+display: flex;    
+gap: .5em;
+width: 50%;
+height: fit-content;
+
+flex-direction: column;
+justify-content: center;
+margin-left: 7em;
+}
+.heroLeft p{
+    font-size: 20px;
+}
+.heroLeft h2{
+    font-size:40px ;
+}
+
+   .heroImg{
+    position: absolute;
+    top: 12em;
+    right: 10em;
+    width: 400px;
+    border-radius: 40%;
+   }
+
+   .bio{
+    width: 100%;
+    /* height: 60vh; */
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+   }
+   .bioContent{
+    width: 100%;
+    height:fit-content;
+    background-color: rgb(33, 32, 51);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 1em;
+    /* justify-content: center; */
+    padding: 3em 5%;
+   }
+
+
+.elevPort{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: fit-content;
+    gap: 2em;
+}
+.elevatorPitch{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(41, 40, 54);
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+   
+}
+.portfolio{
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(103, 102, 131);
+    margin-bottom: 2em;
+}
+.portfolio h2{
+    margin-bottom: 1em;
+}
+.portfolio  p{
+    margin-top: 2em;
+}
+
+.alxProj{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    align-items: center;
+}
+.alxProj a{
+    /* text-decoration: none; */
+    text-decoration-color: 3px solid (3, 2, 20);
+    color: #fff;
+}
+.alxProj li{
+    list-style: none;
+}
+
+.btn{
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: rgb(17, 15, 44);
+    color: #fff;
+}
+.btn a{
+    text-decoration: none;
+    border-block-start: 2px #fff;
+    flex: 25px;
+    color: #fff;
+}
+.btn:hover{
+    background-color: #fff;
+    color: rgb(17, 15, 44);
+}
+.btn a:hover{
+    background-color: #fff;
+    color: rgb(17, 15, 44);
+}
+footer{
+    padding-top: 3em;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(17, 15, 44);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+    border-top: 1px solid #000;
+
+}
+.footCont{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+
+}
+.socials{
+    display: flex;
+    gap: 2em;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+}
+
+/* MOBILE RES  */
+@media only screen  and (max-width:930px){
+    header{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(3, 2, 20);
+        border-bottom: 1px solid #fff;
+    }
+    nav{
+        width: 90%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        font-size: 20px;
+        text-decoration: none;
+        color: #fff;
+    }
+    .menu{
+        display: none;
+    }
+    
+
+
+    .hamburger{
+        width: 32px;
+        height: 28px;
+        cursor: pointer;
+    }
+    .layer1, .layer2, .layer3{
+        width: 100%;
+        height: 3px;
+        background: #fff;
+        margin: 4px;
+    
+    }
+    
+    /* side menu bar  */
+    .side-menu-bar{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+       height: 100vh;
+        background-color: rgb(17, 15, 44);    
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+       
+        transition: all 0.3s linear;
+        transform: translate(100%);
+        overflow: scroll;
+        z-index: 10;
+    }
+    .close-menu-bar{
+        color: #fff;
+        font-size: 50px;
+        margin-top: 1em;
+        margin-left: .5em;
+        cursor: pointer;
+    }
+    
+    .side-menu{
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+        justify-content: center;
+        align-items: center;
+    }
+    .side-menu-items{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Poiret One', cursive;
+    list-style: none;
+    }
+    .side-menu-items li{
+     color: fff;
+    }
+    .side-menu-items a{
+    text-decoration: none;
+    color: #fff;
+    }
+    .side-menu-items a:hover{
+        color: rgb(211, 209, 200);
+        }
+
+    main{
+        width: 100%;
+        /* height: 90vh; */
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(2, 1, 12);
+    }
+    .mainContent{
+        width: 95%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero{
+        width: 100%;
+        min-height: 100vh;
+        color: #fff;
+        display: flex;
+        flex-direction:column-reverse ;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        padding: 2em 0;
+    
+    }
+    .heroLeft{
+    display: flex;    
+    gap: .5em;
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    }
+    .heroLeft p{
+        font-size: 20px;
+    }
+    .heroLeft h2{
+        font-size:20px ;
+    }
+    
+       .heroImg{
+        width: 300px;
+        border-radius: 40%;
+       }
+    
+       .bio{
+        width: 100%;
+        /* height: 60vh; */
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3em;
+       }
+       .bioContent{
+        width: 100%;
+        height:fit-content;
+        background-color: rgb(33, 32, 51);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        gap: 1em;
+        /* justify-content: center; */
+        padding: 3em 5%;
+       }
+       .bio p{
+        font-size: 18px;
+       }
+       .bio h2{
+        font-size: 20px;
+       }
+    
+    
+    .elevPort{
+        display: flex;
+        flex-direction: column;
+        width:100% ;
+        height: fit-content;
+        gap: 2em;
+        padding: 2em 0;
+    }
+    .elevatorPitch{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 60vh;
+        background-color: rgb(41, 40, 54);
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .portfolio{
+        padding: 2em 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 30vh;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(66, 65, 94);
+        margin-bottom: 2em;
+    }
+    .portfolio h2{
+        /* margin-bottom: 3em; */
+    }
+    .portfolio  p{
+        margin-top: 2em;
+    }
+
+    .alxProj{
+        padding: 0 5%;
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        gap: .5em;
+        text-align: center;
+    }
+    .alxProj h3{
+        font-size: 15px;
+    }
+    .alxProj a{
+        list-style: none;
+        /* text-decoration: none; */
+        text-decoration-color: 3px solid (3, 2, 20);
+        color: #fff;
+    }
+    .alxProj li{
+        list-style: none;
+    }
+    
+    
+    .btn{
+        padding: 8px 12px;
+        border-radius: 8px;
+        background-color: rgb(17, 15, 44);
+        color: #fff;
+    }
+    .btn a{
+        text-decoration: none;
+        border-block-start: 2px #fff;
+        flex: 25px;
+        color: #fff;
+    }
+    .btn:hover{
+        background-color: #fff;
+        color: rgb(17, 15, 44);
+    }
+    .btn a:hover{
+        background-color: #fff;
+        color: rgb(17, 15, 44);
+    }
+    footer{
+        padding: 3em 0;
+        width: 100%;
+        height: 10vh;
+        background-color: rgb(17, 15, 44);
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2em;
+        border-top: 1px solid #000;
+    
+    }
+    .footCont{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        align-items: center;
+        gap: 1em;
+    
+    }
+    .socials{
+        display: flex;
+        gap: 1.5em;
+    }
+    .socials a{
+        text-decoration: none;
+        color: #fff;
+    }
+}

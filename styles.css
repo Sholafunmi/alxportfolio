@@ -297,7 +297,6 @@ footer{
     .side-menu-items{
     color: #fff;
     font-size: 25px;
-    font-family: 'Poiret One', cursive;
     list-style: none;
     }
     .side-menu-items li{
@@ -327,14 +326,16 @@ footer{
     }
     .hero{
         width: 100%;
-        min-height: 100vh;
+        min-height: fit-content;
         color: #fff;
         display: flex;
         flex-direction:column-reverse ;
         justify-content: center;
         align-items: center;
         gap: 1em;
-        padding: 2em 0;
+        padding-top: 6em;
+        padding-bottom: 2em;
+        /* border: 2px solid red; */
     
     }
     .heroLeft{
@@ -467,9 +468,9 @@ footer{
         color: rgb(17, 15, 44);
     }
     footer{
-        padding: 3em 0;
+        padding: 2em 0;
         width: 100%;
-        height: 10vh;
+        height: fit-content;
         background-color: rgb(17, 15, 44);
         display: flex;
         justify-content: center;

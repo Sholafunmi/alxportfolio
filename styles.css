@@ -385,7 +385,7 @@ footer{
         padding: 3em 5%;
        }
        .bio p{
-        font-size: 18px;
+        font-size: 16px;
        }
        .bio h2{
         font-size: 20px;
@@ -435,6 +435,7 @@ footer{
     }
     .portfolio  p{
         margin-top: 2em;
+        font-size: 16px;
     }
 
     .alxProj{
@@ -446,7 +447,7 @@ footer{
         text-align: center;
     }
     .alxProj h3{
-        font-size: 15px;
+        font-size: 16px;
     }
     .alxProj a{
         list-style: none;
@@ -460,6 +461,7 @@ footer{
     
     
     .btn{
+        margin-top: 5px;
         padding: 8px 12px;
         border-radius: 8px;
         background-color: rgb(17, 15, 44);

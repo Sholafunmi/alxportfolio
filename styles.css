@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Roboto Mono', monospace;
 }
 @media only screen  and (min-width:930px){
     .side-menu-bar{
@@ -93,11 +94,9 @@ margin-left: 7em;
 
    .bio{
     width: 100%;
-    /* height: 60vh; */
     height: fit-content;
     display: flex;
     justify-content: center;
-    margin-bottom: 2em;
    }
    .bioContent{
     width: 100%;
@@ -114,6 +113,7 @@ margin-left: 7em;
 
 
 .elevPort{
+    margin: 2em 0;
     display: flex;
     flex-direction: column;
     width:100%;
@@ -124,12 +124,17 @@ margin-left: 7em;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 60vh;
+    height: fit-content;
     background-color: rgb(41, 40, 54);
     color: #fff;
     align-items: center;
     justify-content: center;
+    gap: 12px;
+    padding: 2em 0;
    
+}
+.elevatorPitch video{
+    width: 50%;
 }
 .portfolio{
     padding: 2em 0;
@@ -388,23 +393,30 @@ footer{
     
     
     .elevPort{
+        /* margin: 2em 0; */
         display: flex;
         flex-direction: column;
         width:100% ;
         height: fit-content;
         gap: 2em;
-        padding: 2em 0;
     }
     .elevatorPitch{
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 60vh;
+       height: fit-content;
         background-color: rgb(41, 40, 54);
         color: #fff;
         align-items: center;
         justify-content: center;
+        gap: 10px;
+        padding: 2em 0;
+        /* border: 2px solid red; */
        
+    }
+    .elevatorPitch video{
+        width: 90%;
+        margin-top: 2em;
     }
     .portfolio{
         padding: 2em 0;
